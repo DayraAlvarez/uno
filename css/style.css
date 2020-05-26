@@ -1,0 +1,45 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0%;
+  }
+  
+  html {
+    background-color: #F4F4F4;
+  }
+  
+  #myNameIs {
+      font-family: 'Pacifico', cursive;
+      font-size: 4vh;
+      margin-bottom: 5px;
+      margin-top: 1vh;
+    }
+    
+  .myInfo {
+      margin-bottom: 30px;
+    }
+    
+  #downloadButton {
+      background-color: #2d2a2d;
+      border:none;
+      color: white;
+      cursor: pointer;
+      text-decoration: none;
+      padding: 10px 10px;
+  }
+  
+  #downloadButton:hover {
+      background-color: #c5c5c5;
+  }
+    
+  
+  /*Footer*/
+  footer {
+      font-size: 1.5vh;
+      height: 4vh;
+      width: 100%;
+      text-align: center;
+      padding-top: 1vh;
+      position: fixed;
+      bottom: 0px;
+  }
