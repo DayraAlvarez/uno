@@ -7,7 +7,28 @@
   html {
     background-color: #F4F4F4;
   }
+
+  .pantoneBook {
+    background: grey;
+  }
+
+  .firstP{
+    background: turquoise;
+
+  }
   
+  .secondP {
+    background: violet;
+  }
+
+  .thirdP {
+    background: yellowgreen;
+  }
+
+  .fourthP {
+    background: blueviolet;
+  }
+
   #myNameIs {
       font-family: 'Pacifico', cursive;
       font-size: 4vh;
