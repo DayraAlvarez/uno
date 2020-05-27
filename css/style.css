@@ -64,6 +64,17 @@
   #downloadButton:hover {
       background-color: #c5c5c5;
   }
+
+  .cityImage {
+      width:97vw;
+      height:80vh;
+  }
+
+  .city {
+    max-width:100%;
+    height:auto;
+    max-height:100%;
+  }
     
   
   /*Footer*/
