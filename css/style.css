@@ -5,7 +5,11 @@
   }
   
   html {
-    background-color: #F4F4F4;
+    background-color: #F5F5F9;
+  }
+
+  .landing {
+    padding-top: 3vh;
   }
 
   .pantoneBook {
@@ -13,20 +17,24 @@
   }
 
   .firstP{
-    background: turquoise;
+    background: #237293;
+    color: white;
 
   }
   
   .secondP {
-    background: violet;
+    background: #1E4F62;
+    color: white;
   }
 
   .thirdP {
-    background: yellowgreen;
+    background: #328891;
+    color: white;
   }
 
   .fourthP {
-    background: blueviolet;
+    background: #3B385A;
+    color: white;
   }
 
   #myNameIs {
@@ -61,6 +69,7 @@
       width: 100%;
       text-align: center;
       padding-top: 1vh;
+      padding-bottom: 1vh;
       position: fixed;
       bottom: 0px;
   }
