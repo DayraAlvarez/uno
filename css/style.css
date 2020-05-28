@@ -9,6 +9,7 @@
   }
 
   h1 {
+    margin-top: 1vh;
     font-size: 3.5vh;
   }
 
@@ -30,10 +31,6 @@
 
   .box {
       box-shadow: 0 0 25px 0 rgba(33, 33, 46, 0.25);
-  }
-
-  .landing {
-    padding-top: 3vh;
   }
 
   .pantoneBook {
@@ -65,7 +62,6 @@
       font-family: 'Pacifico', cursive;
       font-size: 4vh;
       margin-bottom: 5px;
-      margin-top: 1vh;
     }
     
   .myInfo {
@@ -73,7 +69,8 @@
     }
     
   #downloadButton {
-      background-color: #2d2a2d;
+      background-color: #19627f;
+      font-size: 1.7vh;
       border:none;
       color: white;
       cursor: pointer;
@@ -82,34 +79,37 @@
   }
   
   #downloadButton:hover {
-      background-color: #c5c5c5;
-  }
-
-  .cityImage {
-      width:97vw;
-      height:80vh;
+      background-color:#328891;
   }
 
   .city {
+    margin-top: 20vh;
     max-width:100%;
     height:auto;
     max-height:100%;
   }
     
-  
-  /*Footer*/
-  footer {
-    background-color: white;
-    height: 4vh;
-    width: 100%;
-    text-align: center;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
-    position: fixed;
-    opacity: 70%;
-    bottom: 0px;
-  }
-
   footer p {
     font-size: 1.7vh;
   }
+
+  .space {
+    height: 1.5vh;
+  }
+
+  .personal {
+    background-color: #237293;
+    color: white;
+  }
+
+  .s {
+    font-size: 1.7vh;
+    margin-bottom: 0.1vh;
+  }
+
+  .t {
+    font-weight: bold;
+    font-size: 2vh;
+    margin-bottom: 1vh;
+  }
+
