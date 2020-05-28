@@ -8,6 +8,26 @@
     background-color: #F5F5F9;
   }
 
+  h1 {
+    font-size: 3.5vh;
+  }
+
+  h2{
+    font-size: 2.5vh;
+  }
+
+  p {
+    font-size: 2.5vh;
+  }
+
+  a {
+    font-size: 2.5vh;
+  }
+
+  div {
+    font-size: 2.5vh;
+  }
+
   .box {
       box-shadow: 0 0 25px 0 rgba(33, 33, 46, 0.25);
   }
@@ -79,12 +99,14 @@
   
   /*Footer*/
   footer {
-      font-size: 1.5vh;
-      height: 4vh;
-      width: 100%;
-      text-align: center;
-      padding-top: 1vh;
-      padding-bottom: 1vh;
-      position: fixed;
-      bottom: 0px;
+    background-color: white;
+    font-size: 1.5vh;
+    height: 4vh;
+    width: 100%;
+    text-align: center;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    position: fixed;
+    opacity: 70%;
+    bottom: 0px;
   }
