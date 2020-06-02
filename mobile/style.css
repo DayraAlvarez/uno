@@ -47,7 +47,12 @@
   #projectCard div img{
     width: 100%;
     height: auto;
-    margin-left: 6vh;
+  }
+
+  .imgbox {
+    text-align: center;
+    width: 20vh;
+    height: 85vh;
   }
 
   /*Footer*/
