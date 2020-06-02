@@ -45,7 +45,9 @@
   }
 
   #projectCard div img{
-    height: 40vh;
+    width: 100%;
+    height: auto;
+    margin-left: 6vh;
   }
 
   /*Footer*/
