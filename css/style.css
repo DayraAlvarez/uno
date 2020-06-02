@@ -41,17 +41,23 @@
   .firstP{
     background: #237293;
     color: white;
+    margin-right: 0.5vw;
+    margin-bottom: 1vh;
 
   }
   
   .secondP {
     background: #1E4F62;
     color: white;
+    margin-right: 0.5vw;
+    margin-bottom: 1vh;
   }
 
   .thirdP {
     background: #328891;
     color: white;
+    margin-right: 0.5vw;
+    margin-bottom: 1vh;
   }
 
   .fourthP {
@@ -96,11 +102,6 @@
 
   .space {
     height: 1.5vh;
-  }
-
-  .personal {
-    background-color: #237293;
-    color: white;
   }
 
   .s {
