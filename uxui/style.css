@@ -34,14 +34,12 @@
 
   /*Footer*/
   footer {
-    background-color: white;
     height: 4vh;
     width: 100%;
     text-align: center;
     padding-top: 1vh;
     padding-bottom: 1vh;
     position: fixed;
-    opacity: 70%;
     bottom: 0px;
   }
 
