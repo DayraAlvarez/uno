@@ -28,6 +28,10 @@
     text-decoration: none;
   }
 
+  a:visited {
+    color: white;
+  }
+
   div {
     font-size: 2.5vh;
   }
