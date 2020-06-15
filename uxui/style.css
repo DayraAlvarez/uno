@@ -1,12 +1,15 @@
-* {
+ 
+  * {
+    box-sizing: border-box;
+    box-shadow: 0 0 25px 0 rgba(33, 33, 46, 0.25)
     font-family: Arial, Helvetica, sans-serif;
     margin: 0%;
     padding: 0%;
   }
   
-  html {
-    background-color:#237293;
-    color: white;
+  body {
+    background-color: #237293;
+    font-family: Arial;
   }
 
   h1 {
@@ -23,7 +26,6 @@
   }
 
   a {
-    color: white;
     font-size: 2.5vh;
     text-decoration: none;
   }
@@ -32,24 +34,58 @@
     color: white;
   }
 
-  div {
-    font-size: 2.5vh;
-  }
-
   p.tittle {
-    font-size: 3vh;
-    font-weight: 700;
-    color: white;
-  }
-
-  p span.subtittle {
     font-size: 3vh;
     font-weight: 100;
     color: white;
   }
 
-  /*Footer*/
-  footer {
+  p span.subtittle {
+    font-size: 3vh;
+    font-weight: 700;
+    color: white;
+  }
+ 
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+
+  .content:hover {
+    background-color: #237293; 
+   }
+  
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+   /*Footer*/
+   footer {
+    color:white;
     height: 4vh;
     width: 100%;
     text-align: center;

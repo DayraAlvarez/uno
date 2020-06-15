@@ -6,6 +6,12 @@
     background-color:#3B385A;
     color: white;
     font-family: Arial;
+    padding: 20px;
+  }
+
+  .main {
+    max-width: 1000px;
+    margin: auto;
   }
 
   h1 {
@@ -46,37 +52,49 @@
     color: white;
   }
 
-  /* Center website */
-.main {
-  max-width: 1000px;
-  margin: auto;
-}
-
-.column {
-  padding: 0.7vw;
-  float: left;
-  width: 25%;
-}
-
-/* Create four equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 25%;
-}
-
-/* Clear floats after rows */ 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Content */
-.content {
-  background-color: white;
-  padding: 10px;
-}
-
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  
   /*Footer*/
   footer {
     height: 4vh;
