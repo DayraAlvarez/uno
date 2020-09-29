@@ -7,7 +7,6 @@
 }
 
 body {
-  background-color: #3B385A;
   font-family: Arial;
 }
   
@@ -30,19 +29,17 @@ a {
 }
 
 a:visited {
-  color: white;
+  color: black;
 }
 
 p.tittle {
   font-size: 3vh;
   font-weight: 100;
-  color: white;
 }
 
 p span.subtittle {
   font-size: 3vh;
   font-weight: 700;
-  color: white;
 }
 
 .row,
@@ -65,10 +62,6 @@ p span.subtittle {
   background-color: white;
   padding: 10px;
 }
-
-.content:hover {
-  background-color: #3B385A; 
- }
 
 @media screen and (max-width: 900px) {
   .column {
