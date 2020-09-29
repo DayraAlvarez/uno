@@ -34,6 +34,16 @@
     color: white;
   }
 
+  .breadcrumbs {
+    position: fixed;
+    background-color: #237293;
+    opacity: 80%;
+  }
+
+  .undernav {
+    margin-top: 6vh;
+  }
+
   p.tittle {
     font-size: 3vh;
     font-weight: 100;
