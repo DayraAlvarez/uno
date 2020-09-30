@@ -102,3 +102,7 @@
   footer p {
     font-size: 1.7vh;
   }
+
+  #navi {
+    display: inline;
+  }
