@@ -26,12 +26,8 @@
 
   a {
     font-size: 2.5vh;
-    text-decoration: none;
   }
 
-  a:visited {
-    color: black;
-  }
 
   .breadcrumbs {
     position: fixed;

@@ -26,11 +26,6 @@
   
     a {
       font-size: 2.5vh;
-      text-decoration: none;
-    }
-  
-    a:visited {
-      color: black;
     }
   
     p.tittle {
@@ -91,4 +86,9 @@
   
     footer p {
       font-size: 1.7vh;
+    }
+
+
+    p.a {
+      text-decoration: none;
     }
