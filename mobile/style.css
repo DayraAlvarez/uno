@@ -27,6 +27,10 @@
     a {
       font-size: 2.5vh;
     }
+
+    a#back {
+      text-decoration: none;
+    }
   
   
     p.tittle {
