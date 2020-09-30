@@ -23,7 +23,14 @@
   }
 
   a {
-    font-size: 3.5vh;
+    font-size: 1.7vh;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #237293;
+  }
+
+  a:visited {
+    color: #237293;
   }
 
   div {
