@@ -93,7 +93,6 @@ footer p {
 
 div.gallery {
   float: left;
-  width: 50vh;
   display:flex;
   flex-direction:row;
   flex-wrap:wrap;
