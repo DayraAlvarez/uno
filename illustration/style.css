@@ -95,10 +95,12 @@ footer p {
 
 
 div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
   float: left;
-  width: 180px;
+  width: 50vh;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:space-between;
 }
 
 div.gallery img {
